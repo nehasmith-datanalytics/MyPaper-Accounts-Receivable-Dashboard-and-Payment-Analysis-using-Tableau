@@ -7,6 +7,10 @@ The analysis focuses on identifying **payment patterns, overdue trends, and disp
 
 The dashboard integrates multiple visualizations such as **monthly payment trends, disputed invoice distribution, and detailed invoice records** to provide a comprehensive view of accounts receivable performance.
 
+
+<img width="1180" height="678" alt="image" src="https://github.com/user-attachments/assets/e597fb63-f252-4222-be01-f56262142277" />
+
+
 ---
 
 ## Dashboard Components
