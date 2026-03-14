@@ -13,8 +13,7 @@ By integrating multiple visualizations, the dashboard provides a **comprehensive
 
 ---
 
-## 🖼️ Dashboard Preview
-![Accounts Receivable Dashboard](attachments/RAvizPd9Lymv7jSbMZiNu.png)
+
 
 ---
 
