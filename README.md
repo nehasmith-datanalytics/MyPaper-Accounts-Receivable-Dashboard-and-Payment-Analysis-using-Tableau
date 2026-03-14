@@ -1,94 +1,87 @@
-Accounts Receivable Dashboard Analysis (Tableau)
-Project Overview
-This project presents an Accounts Receivable Dashboard developed using Tableau to analyze invoice payment trends, customer payment behavior, and disputed invoices. The dashboard helps organizations monitor financial performance, track outstanding payments, and improve receivable management.
+# 📊 Accounts Receivable Dashboard (Tableau)
 
-The analysis focuses on identifying payment patterns, overdue trends, and dispute rates, allowing finance teams to make informed decisions and optimize cash flow management.
+## 📌 Project Overview
+This project presents an **Accounts Receivable Dashboard** developed in **Tableau** to analyze invoice payment trends, customer payment behavior, and disputed invoices.  
+The dashboard enables finance teams to:
 
-The dashboard integrates multiple visualizations such as monthly payment trends, disputed invoice distribution, and detailed invoice records to provide a comprehensive view of accounts receivable performance.
+- Monitor financial performance  
+- Track outstanding payments  
+- Identify overdue trends and dispute rates  
+- Optimize cash flow management  
 
-image
-Dashboard Components
-1. Amount Paid per Month
-This line chart visualizes the trend of payments received over time based on the settled invoice date.
+By integrating multiple visualizations, the dashboard provides a **comprehensive view of accounts receivable performance**.
 
-Purpose
+---
 
-Track monthly payment patterns
-Identify fluctuations in payment collection
-Monitor cash flow consistency
-Insight The chart shows relatively stable payment amounts across months, indicating a consistent payment cycle and steady revenue collection.
+## 🖼️ Dashboard Preview
+![Accounts Receivable Dashboard](attachments/RAvizPd9Lymv7jSbMZiNu.png)
 
-2. Disputed Invoices
-This pie chart illustrates the distribution of disputed and non-disputed invoices.
+---
 
-Purpose
+## 🖼️ Dashboard Components
 
-Identify the percentage of invoices that encounter disputes
-Evaluate billing accuracy and customer satisfaction
-Insight Most invoices are processed without disputes, suggesting efficient billing processes and good customer relations.
+### 1. Amount Paid per Month
+- **Visualization:** Line chart of payments received over time (settled invoice date).  
+- **Purpose:**  
+  - Track monthly payment patterns  
+  - Identify fluctuations in payment collection  
+  - Monitor cash flow consistency  
+- **Insight:** Payments remain relatively stable across months, indicating a consistent cycle and steady revenue inflow.
 
-3. Invoice Detail Table
-This worksheet provides a detailed view of invoice-level information, including:
+### 2. Disputed Invoices
+- **Visualization:** Pie chart showing disputed vs. non-disputed invoices.  
+- **Purpose:**  
+  - Identify dispute percentage  
+  - Evaluate billing accuracy and customer satisfaction  
+- **Insight:** Most invoices are processed without disputes, reflecting efficient billing and strong customer relations.
 
-Customer Name
-Customer Type
-Invoice Date
-Due Date
-Settled Date
-Dispute Status
-Days Overdue
-Invoice Amount
-Purpose
+### 3. Invoice Detail Table
+- **Visualization:** Tabular view of invoice-level data.  
+- **Fields:** Customer Name, Customer Type, Invoice Date, Due Date, Settled Date, Dispute Status, Days Overdue, Invoice Amount.  
+- **Purpose:**  
+  - Perform detailed invoice tracking  
+  - Identify late/early payments  
+  - Analyze customer payment behavior  
 
-Perform detailed invoice tracking
-Identify late or early payments
-Analyze customer payment behavior
-Key Performance Indicators (KPIs)
-1. Amount Paid per Month
-Value: $147.7K
+---
 
-This KPI represents the total amount of payments collected per month.
+## 📈 Key Performance Indicators (KPIs)
 
-Result Indicates consistent revenue inflow and stable payment patterns from customers.
+| KPI | Value | Insight |
+|-----|-------|---------|
+| **Amount Paid per Month** | $147.7K | Consistent revenue inflow and stable payment patterns |
+| **Largest Amount Paid** | $128.3K | Highlights high-value transactions contributing significantly to revenue |
+| **Average Days Overdue** | -3.561 Days (Early) | Negative value indicates invoices are paid **before due date**, showing strong payment discipline |
 
-2. Largest Amount Paid
-Value: $128.3
+---
 
-This KPI highlights the largest invoice payment received.
+## 🔎 Outcomes of the Analysis
+- Customers generally pay invoices **earlier than due dates**.  
+- Stable monthly payment collections ensure predictable cash flow.  
+- Invoice disputes are **low**, indicating effective billing practices.  
+- Payment behavior across customers is **consistent**.  
 
-Result Helps identify high-value transactions contributing significantly to total revenue.
+---
 
-3. Average Days Overdue
-Value: -3.561 Days (Early)
+## 💡 Business Value
+This dashboard delivers significant value to finance and business teams by:  
+- Improving **cash flow monitoring**  
+- Identifying **payment delays and risks**  
+- Reducing **invoice disputes**  
+- Enabling **customer payment behavior analysis**  
+- Supporting **data-driven financial decisions**  
 
-This KPI measures the average number of days invoices are paid before or after their due date.
+---
 
-Result A negative value indicates that invoices are generally paid earlier than the due date, reflecting strong payment discipline.
+## 🛠️ Tools & Technologies
+- **Tableau** – Data visualization and dashboard creation  
+- **Accounts Receivable Dataset** – Invoice and payment data  
+- **Business Intelligence Techniques** – KPI monitoring and trend analysis  
 
-Outcomes of the Analysis
-The dashboard analysis reveals several important insights:
+---
 
-Customers generally pay invoices earlier than the due date.
-The organization experiences stable monthly payment collections.
-Invoice disputes are relatively low, indicating effective billing practices.
-Payment behavior across customers is largely consistent.
-These findings demonstrate efficient accounts receivable management and strong financial operations.
+## ✅ Conclusion
+The **Accounts Receivable Dashboard** provides actionable insights into payment timeliness, dispute patterns, and customer behavior.  
+By leveraging **data visualization and financial analytics**, organizations can enhance transparency, improve operational efficiency, and strengthen receivable management strategies.
 
-Business Value
-This dashboard provides significant value for finance and business teams:
-
-Improves cash flow monitoring
-Identifies payment delays and potential risks
-Helps reduce invoice disputes
-Enables customer payment behavior analysis
-Supports data-driven financial decision making
-Organizations can use this dashboard to enhance financial transparency, improve operational efficiency, and strengthen receivable management strategies.
-
-Tools and Technologies
-Tableau – Data visualization and dashboard creation
-Accounts Receivable Dataset – Invoice and payment data
-Business Intelligence Techniques – KPI monitoring and trend analysis
-Conclusion
-The Accounts Receivable Dashboard provides a comprehensive overview of invoice payments, dispute patterns, and payment timeliness. By leveraging data visualization and financial analytics, the project helps organizations gain actionable insights into receivable performance and improve overall financial management.
-
-# MyPaper-Accounts-Receivable-Dashboard-and-Payment-Analysis-using-Tableau
+---
